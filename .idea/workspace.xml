@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc40a8d3-6991-4f69-b8b2-de05b55d4635" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyPracticeJava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modulo1.java" afterDir="false" />
+    <list default="true" id="fc40a8d3-6991-4f69-b8b2-de05b55d4635" name="Changes" comment="prueba cambio en git">
+      <change afterPath="$PROJECT_DIR$/src/Modulo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modulo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modulo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modulo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +39,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/luis.uyasan/IdeaProjects/MyPracticeJava",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
@@ -53,6 +52,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666297361836</updated>
     </task>
+    <task id="LOCAL-00001" summary="prueba cambio en git">
+      <created>1666298773573</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666298773573</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -65,5 +72,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="prueba cambio en git" />
+    <option name="LAST_COMMIT_MESSAGE" value="prueba cambio en git" />
   </component>
 </project>
