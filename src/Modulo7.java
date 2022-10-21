@@ -1,12 +1,16 @@
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Scanner;
 
 public class Modulo7 {
     public static void main(String[] args) {
 
-        ControlDate();
-        ControlCalendar();
+        //ControlDate();
+        //ControlCalendar();
+        //DateAString();
+        DateToCompare();
     }
 
     public static void ControlDate() {
@@ -35,5 +39,43 @@ public class Modulo7 {
         System.out.println("date2 = " + date2);
 
     }
+
+    public static void DateAString(){
+        SimpleDateFormat dateFormat = new SimpleDateFormat( "dd-MM-yyyy");
+        try {
+            Date date = dateFormat.parse("01-05-2020");
+            System.out.println("date = " + date);
+            System.out.println(" date = " + dateFormat.format(date));
+        }catch (ParseException e ){
+            e.printStackTrace();
+        }
+    }
+
+    public static void DateToCompare(){
+        Scanner scanner = new Scanner(System.in);
+        SimpleDateFormat dateFormat = new SimpleDateFormat( "dd-MM-yyyy");
+
+        System.out.println("Input a date with format dd-MM-yyyy");
+        try {
+            Date date = dateFormat.parse(scanner.next());
+            System.out.println("date = " + date);
+            System.out.println("format = " + dateFormat.format(date));
+
+            Date date2 = new Date();
+            System.out.println("date2 = " + date2);
+
+            if (date.after(date2)){
+                System.out.println("date user is after than date2 (actually)");
+            } else if (date.before(date2)) {
+                System.out.println(" date is before than date2");
+            } else if (date.equals(date2)) {
+                System.out.println(" date is equal than date2 ");
+            }
+        }catch (ParseException e ){
+            e.printStackTrace();
+        }
+    }
+
+
 }
 
