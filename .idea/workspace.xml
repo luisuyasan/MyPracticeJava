@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc40a8d3-6991-4f69-b8b2-de05b55d4635" name="Changes" comment="changes 5 full">
-      <change afterPath="$PROJECT_DIR$/src/ExercicesPractices/CovertDateBirthDay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExercicesPractices/GFC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExercicesPractices/MultipliTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExercicesPractices/ProgramNumberMenor.java" afterDir="false" />
+    <list default="true" id="fc40a8d3-6991-4f69-b8b2-de05b55d4635" name="Changes" comment="changes 21/10/22 4:39 full">
+      <change afterPath="$PROJECT_DIR$/src/Modulo8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modulo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modulo7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +42,7 @@
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CovertDateBirthDay">
+  <component name="RunManager" selected="Application.Modulo8">
     <configuration name="CovertDateBirthDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExercicesPractices.CovertDateBirthDay" />
       <module name="MyPracticeJava" />
@@ -72,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Modulo7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Modulo7" />
+    <configuration name="Modulo8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Modulo8" />
       <module name="MyPracticeJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Modulo8" />
         <item itemvalue="Application.CovertDateBirthDay" />
         <item itemvalue="Application.ProgramNumberMenor" />
         <item itemvalue="Application.MultipliTwoNumbers" />
         <item itemvalue="Application.GFC" />
-        <item itemvalue="Application.Modulo7" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666308844658</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="changes 21/10/22 4:39 full">
+      <created>1666388406421</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666388406421</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +195,7 @@
     <MESSAGE value="changes 3 full" />
     <MESSAGE value="changes 4 full" />
     <MESSAGE value="changes 5 full" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes 5 full" />
+    <MESSAGE value="changes 21/10/22 4:39 full" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes 21/10/22 4:39 full" />
   </component>
 </project>
