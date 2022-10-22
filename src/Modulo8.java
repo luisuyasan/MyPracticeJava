@@ -1,5 +1,6 @@
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.util.Map;
 import java.util.Properties;
 
 public class Modulo8 //Using System
@@ -7,7 +8,9 @@ public class Modulo8 //Using System
     public static void main(String[] args)
     {
         //SystemProperties();
-        SetPropertiesSystem();
+        //SetPropertiesSystem();
+        //VarEnvironment();
+        varEnvironment();
     }
 
     public static void SystemProperties() {
@@ -43,6 +46,33 @@ public class Modulo8 //Using System
             System.out.println("file do not exist" + e);
 
         }
+    }
+
+    public static void VarEnvironment(){
+        Map<String,String> varEnv = System.getenv();
+        System.out.println("variables of Environment = " + varEnv);
+
+        //different routs of environment we can use
+        String username = System.getenv("USERNAME");
+        System.out.println("username = " + username);
+
+        String javaHome = System.getenv("JAVA_HOME");
+        System.out.println("javaHome = " + javaHome);
+        
+        String temDir = System.getenv("TEMP");
+        System.out.println("temDir = " + temDir);
+        
+        String path = System.getenv("PATH");
+        System.out.println("path = " + path);
+    }
+
+    public static void varEnvironment(){
+        Map<String,String>varEnv = System.getenv();
+        System.out.println("Print variables of Environment");
+        for (String key: varEnv.keySet()){
+            System.out.println(key +" => " + varEnv.get(key));
+        }
+
     }
 
 }
