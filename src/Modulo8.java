@@ -10,7 +10,8 @@ public class Modulo8 //Using System
         //SystemProperties();
         //SetPropertiesSystem();
         //VarEnvironment();
-        varEnvironment();
+        //varEnvironment();
+        ProgramSoRunTime();
     }
 
     public static void SystemProperties() {
@@ -43,8 +44,7 @@ public class Modulo8 //Using System
             System.setProperties(p);
             System.getProperties().list(System.out);
         }catch (Exception e){
-            System.out.println("file do not exist" + e);
-
+            System.err.println("file do not exist" + e);
         }
     }
 
@@ -72,7 +72,25 @@ public class Modulo8 //Using System
         for (String key: varEnv.keySet()){
             System.out.println(key +" => " + varEnv.get(key));
         }
+    }
 
+    public static void ProgramSoRunTime() {
+
+        Runtime rt = Runtime.getRuntime();
+        Process process;
+        try{
+            if(System.getProperty("os.name").startsWith("Windows")){
+                process = rt.exec("notepad");
+            }else{
+                process = rt.exec("gedit");
+            }
+            process.waitFor();
+        }catch (Exception e){
+            System.err.println("El comando es desconocido: " + e.getMessage());
+            System.exit(1);
+        }
+        System.out.println("Se ha cerrado el editor");
+        System.exit(0);
     }
 
 }
