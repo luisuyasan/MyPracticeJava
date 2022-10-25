@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc40a8d3-6991-4f69-b8b2-de05b55d4635" name="Changes" comment="changes 24/10/22 18:39 full">
-      <change afterPath="$PROJECT_DIR$/src/WorksArrays.java" afterDir="false" />
+    <list default="true" id="fc40a8d3-6991-4f69-b8b2-de05b55d4635" name="Changes" comment="changes 25/10/22 14:01 full">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modulo10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modulo10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modulo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicJava/Modulo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modulo10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modulo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicJava/Modulo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modulo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicJava/Modulo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modulo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicJava/Modulo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modulo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicJava/Modulo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modulo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiddleJava/Modulo6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modulo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiddleJava/Modulo7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modulo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiddleJava/Modulo8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modulo9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiddleJava/Modulo9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WorksArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/WorksArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +43,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/luis.uyasan/Desktop/myProyect&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "C:/Users/luis.uyasan/Desktop/myProyect",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
-  <component name="RunManager" selected="Application.WorksArrays">
+}]]></component>
+  <component name="RunManager" selected="Application.Arrays">
     <configuration name="AreaCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExercicesPractices.AreaCircle" />
       <module name="MyPracticeJava" />
@@ -56,29 +67,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Modulo10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Modulo10" />
+    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Arrays" />
       <module name="MyPracticeJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Modulo8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Modulo8" />
+      <option name="MAIN_CLASS_NAME" value="MiddleJava.Modulo8" />
       <module name="MyPracticeJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Modulo9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Modulo9" />
+      <option name="MAIN_CLASS_NAME" value="MiddleJava.Modulo9" />
       <module name="MyPracticeJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="WorksArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WorksArrays" />
+      <option name="MAIN_CLASS_NAME" value="Arrays.WorksArrays" />
       <module name="MyPracticeJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,8 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Arrays" />
         <item itemvalue="Application.WorksArrays" />
-        <item itemvalue="Application.Modulo10" />
         <item itemvalue="Application.Modulo9" />
         <item itemvalue="Application.AreaCircle" />
         <item itemvalue="Application.Modulo8" />
@@ -173,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666654787277</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="changes 25/10/22 14:01 full">
+      <created>1666724475905</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666724475905</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +227,7 @@
     <MESSAGE value="changes 21/10/22 6:10 full" />
     <MESSAGE value="changes 24/10/22 13:22 full" />
     <MESSAGE value="changes 24/10/22 18:39 full" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes 24/10/22 18:39 full" />
+    <MESSAGE value="changes 25/10/22 14:01 full" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes 25/10/22 14:01 full" />
   </component>
 </project>

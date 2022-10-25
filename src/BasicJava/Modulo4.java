@@ -1,3 +1,5 @@
+package BasicJava;
+
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.lang.reflect.Method;
 

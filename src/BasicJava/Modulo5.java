@@ -1,3 +1,5 @@
+package BasicJava;
+
 public class Modulo5
 {
     public static void main(String[] args)

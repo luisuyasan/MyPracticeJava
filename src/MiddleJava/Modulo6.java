@@ -1,3 +1,4 @@
+package MiddleJava;
 
 public class Modulo6
 {

@@ -1,9 +1,8 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.Collection;
+package Arrays;
+
 import java.util.Collections;
 
-public class Modulo10 //Arrays
+public class Arrays //Arrays.Arrays
 {
     public static void main(String[] args)
     {
@@ -13,8 +12,9 @@ public class Modulo10 //Arrays
         //FillingUpArrays();
         //ForInverse();
         //ArrayReverse();
-        OrderBubble();
-        
+        //OrderBubble();
+        //OtherOrdersArray();
+        ConcatArrays();
     }
 
     public static void SpecificationArrays(){
@@ -52,7 +52,7 @@ public class Modulo10 //Arrays
         products[3] = "MacBook Air 14";
         products[4] = "HeadSet usb modern";
 
-        Arrays.sort(products);  //organize the array alphabetical or numbers in order descend
+        java.util.Arrays.sort(products);  //organize the array alphabetical or numbers in order descend
 
         String Product1 = products[0];
         String Product2 = products[1];
@@ -78,7 +78,7 @@ public class Modulo10 //Arrays
         }
 
         //Touring arrays with forEach
-        Arrays.sort(names);
+        java.util.Arrays.sort(names);
         for (String name: names){
             System.out.println("name = " + name);
         }
@@ -121,7 +121,7 @@ public class Modulo10 //Arrays
 
     public static void ArrayReverse(){
         String[] names = {"luis","nicolas","jenny","carlos","alex"};
-        Collections.reverse(Arrays.asList(names));
+        Collections.reverse(java.util.Arrays.asList(names));
         for (String name: names) {
             System.out.println("name = " + name);
         }
@@ -149,6 +149,61 @@ public class Modulo10 //Arrays
             System.out.println("names[i] = " + names[i]);
         }
        
+    }
+
+    public static void OtherOrdersArray(){
+        int[] numbers = new int[10];
+        int TotalArray = numbers.length;
+
+        for (int i = 0; i < TotalArray; i++){
+            numbers[i] = i + 1;
+        }
+
+        for (int i = 0; i < TotalArray - i; i++){
+            System.out.print(numbers[i] + " - ");
+            System.out.println(numbers[TotalArray - 1 - i]);
+        }
+        
+        //filling up array with for
+        int[]a = new int[10];
+        int aux = 0;
+        for (int i = 0; i < TotalArray - i; i++){
+            a[aux++] = numbers[i];
+            a[aux++] = numbers[TotalArray -1 -i];
+        }
+
+        for (var number: a) {
+            System.out.println("number = " + number + " ");
+        }
+    }
+
+    public static void ConcatArrays(){
+        int[] a,b,c;
+
+        a = new int[10];
+        b = new int[10];
+        c = new int[20];
+
+        //filling up arrays
+        for (int i = 0; i <a.length; i++){
+            a[i] = i + 1;
+        }
+
+        //filling up arrays
+        for (int i = 0; i <b.length; i++){
+            b[i] = (i + 1)*5;
+        }
+
+        //filling up with two arrays
+        int aux = 0;
+        for (int i = 0; i < 10;i++){
+            c[aux++] = a[i];
+            c[aux++] = b[i];
+        }
+
+        for (int i = 0; i < c.length;i++){
+            System.out.println(c[i]);
+        }
     }
 
 }

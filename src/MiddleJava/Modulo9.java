@@ -1,3 +1,5 @@
+package MiddleJava;
+
 import java.util.Random;
 
 public class Modulo9// class Math

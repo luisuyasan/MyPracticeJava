@@ -1,3 +1,5 @@
+package Arrays;
+
 public class WorksArrays
 {
     public static void main(String[] args)
@@ -8,8 +10,16 @@ public class WorksArrays
         int lengthNames = names.length;
         int lengthNumbers = numbers.length;
 
+        System.out.println("array names");
+        MethodBubble(names,lengthNames);
+        PrintArray(names,lengthNames);
+
+        System.out.println("array numbers");
         MethodBubble(numbers,lengthNumbers);
         PrintArray(numbers,lengthNumbers);
+
+
+
     }
 
 
