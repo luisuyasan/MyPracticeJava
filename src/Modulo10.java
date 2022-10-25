@@ -1,12 +1,19 @@
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
 
 public class Modulo10 //Arrays
 {
     public static void main(String[] args)
     {
         //SpecificationArrays();
-        ArrayString();
+        //ArrayString();
+        //TouringArrays();
+        //FillingUpArrays();
+        //ForInverse();
+        //ArrayReverse();
+        OrderBubble();
         
     }
 
@@ -59,4 +66,89 @@ public class Modulo10 //Arrays
         System.out.println("Product1 = " + Product4);
         System.out.println("Product1 = " + Product5);
     }
+
+    public static void TouringArrays() {
+
+        String[] names = {"luis","nicolas","jenny","carlos","alex"};
+        int LengthNames = names.length;
+
+        //Touring arrays with for
+        for (int i = 0; i < LengthNames; i++){
+            System.out.println("names position "+ (i+1) + "= " + names[i]);
+        }
+
+        //Touring arrays with forEach
+        Arrays.sort(names);
+        for (String name: names){
+            System.out.println("name = " + name);
+        }
+
+        //Touring arrays with while
+        int i = 0;
+        while(i < LengthNames){
+            System.out.println("name in while= " + names[i]);
+            i++;
+        }
+
+        //Touring arrays with doWhile
+        int j = 0;
+        do {
+            System.out.println("name in do while= " + names[j]);
+            j++;
+        } while(j < LengthNames);
+    }
+
+    public static void FillingUpArrays() {
+
+        int[] numbers = new int[10];
+        int totalNumbers = numbers.length;
+        for (int i = 0; i < totalNumbers;i++){   //filling up array
+            numbers[i] = i*3;
+        }
+
+        for (int number:numbers) {                    //printer array
+            System.out.println("number = " + number);
+        }
+    }
+
+    public static void ForInverse() {
+        String[] names = {"luis","nicolas","jenny","carlos","alex"};
+        int LengthNames = names.length;
+        for (int i = LengthNames - 1 ;i >= 0;i--){
+            System.out.println("names[i] = " + names[i]);
+        }
+    }
+
+    public static void ArrayReverse(){
+        String[] names = {"luis","nicolas","jenny","carlos","alex"};
+        Collections.reverse(Arrays.asList(names));
+        for (String name: names) {
+            System.out.println("name = " + name);
+        }
+    }
+
+    public static void OrderBubble(){
+        String[] names = {"luis","nicolas","jenny","carlos","alex"};
+        int LengthNames = names.length;
+        int counter = 0;
+        for (int i = 0; i < LengthNames - 1; i++){
+            
+            for (int j = 0; j < LengthNames - 1 -i; j++){
+                if (names[j+1].compareTo(names[j]) < 0){
+                    String auxiliary = names[j];
+                    names[j] = names[j + 1];
+                    names[j+1] = auxiliary;
+                    System.out.println("auxiliary = " + auxiliary);
+                }
+                counter++;
+            }
+        }
+        System.out.println("counter = " + counter);
+        
+        for (int i = 0; i < LengthNames;i++){
+            System.out.println("names[i] = " + names[i]);
+        }
+       
+    }
+
 }
