@@ -8,7 +8,9 @@ public class Arrays3
 
         //MethodDetectOrder();
         //FindElementInArray();
-        FindElementInArrayWithString();
+        //FindElementInArrayWithString();
+        //MoveElementPositionInArray();
+        InsertElementInPositionIndicateInArray();
     }
 
     public static void MethodDetectOrder(){
@@ -90,4 +92,46 @@ public class Arrays3
         }
     }
 
+    public static void MoveElementPositionInArray(){
+        Scanner scanner = new Scanner(System.in);
+
+        int[] a = new int[10];
+        int last;
+
+        for(int i = 0 ; i < a.length; i++){
+            System.out.println("Enter a number");
+            a[i] = scanner.nextInt();
+        }
+
+        last = a[a.length - 1];
+        for (int i = a.length - 2; i >= 0; i--){
+            a[i + 1] = a[i];
+        }
+        a[0] = last;
+        System.out.println(" last array ");
+        for (int i = 0; i < a.length;i++){
+            System.out.println(a[i]);
+        }
+    }
+
+    public static void InsertElementInPositionIndicateInArray() {
+        Scanner scanner = new Scanner(System.in);
+
+        int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        System.out.println("Enter a number insert");
+        int numberInsert = scanner.nextInt();
+
+        System.out.println("Enter a position insert 1 - 10");
+        int position = scanner.nextInt() - 1;
+
+        for (int i = a.length - 2; i >= position ; i--) {
+           a[i + 1] = a[i];
+        }
+        a[position] = numberInsert;
+
+        System.out.println(" array ");
+        for (int i = 0; i < a.length;i++){
+            System.out.println("a = " + a[i]);
+        }
+    }
 }
