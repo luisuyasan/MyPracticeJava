@@ -1,8 +1,8 @@
-package Arrays;
+package CursoJavaBeggin.BasicJava.Arrays;
 
 import java.util.Collections;
 
-public class Arrays //Arrays.Arrays
+public class Arrays //CursoJavaBeggin.BasicJava.Arrays.CursoJavaBeggin.BasicJava.Arrays
 {
     public static void main(String[] args)
     {

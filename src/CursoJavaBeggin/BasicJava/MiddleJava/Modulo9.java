@@ -1,4 +1,4 @@
-package MiddleJava;
+package CursoJavaBeggin.BasicJava.MiddleJava;
 
 import java.util.Random;
 

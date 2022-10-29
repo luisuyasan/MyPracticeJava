@@ -1,7 +1,6 @@
-package MiddleJava;
+package CursoJavaBeggin.BasicJava.MiddleJava;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.Map;
 import java.util.Properties;
 

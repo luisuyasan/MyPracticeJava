@@ -1,6 +1,5 @@
-package BasicJava;
+package CursoJavaBeggin.BasicJava;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.lang.reflect.Method;
 
 public class Modulo4 // Clases Wrapper

@@ -1,4 +1,4 @@
-package ExercicesPractices;
+package CursoJavaBeggin.BasicJava.ExercicesPractices;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;

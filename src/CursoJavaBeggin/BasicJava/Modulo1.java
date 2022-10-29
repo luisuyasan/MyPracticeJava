@@ -1,4 +1,4 @@
-package BasicJava;
+package CursoJavaBeggin.BasicJava;
 
 import javax.swing.*;
 import java.util.InputMismatchException;

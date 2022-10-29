@@ -1,4 +1,4 @@
-package MiddleJava;
+package CursoJavaBeggin.BasicJava.MiddleJava;
 
 public class Modulo6
 {

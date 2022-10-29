@@ -1,4 +1,4 @@
-package ExercicesPractices;
+package CursoJavaBeggin.BasicJava.ExercicesPractices;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

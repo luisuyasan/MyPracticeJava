@@ -1,4 +1,4 @@
-package Matrices;
+package CursoJavaBeggin.BasicJava.Matrices;
 
 public class Matriz1
 {

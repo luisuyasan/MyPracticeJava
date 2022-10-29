@@ -1,8 +1,6 @@
-package BasicJava;
+package CursoJavaBeggin.BasicJava;
 
 import javax.swing.*;
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Modulo3 //Sentencias

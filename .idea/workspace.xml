@@ -4,9 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc40a8d3-6991-4f69-b8b2-de05b55d4635" name="Changes" comment="changes 27/10/22 19:39 full">
-      <change afterPath="$PROJECT_DIR$/src/Matrices/Matriz1.java" afterDir="false" />
+    <list default="true" id="fc40a8d3-6991-4f69-b8b2-de05b55d4635" name="Changes" comment="changes 28/10/22 14:02 full">
+      <change afterPath="$PROJECT_DIR$/src/JavaPOO/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaPOO/ExampleCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Array4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Arrays/Array4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Arrays/Arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Arrays2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Arrays/Arrays2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Arrays3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Arrays/Arrays3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/WorksArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Arrays/WorksArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicJava/Modulo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Modulo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicJava/Modulo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Modulo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicJava/Modulo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Modulo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicJava/Modulo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Modulo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicJava/Modulo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Modulo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicesPractices/AreaCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/ExercicesPractices/AreaCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicesPractices/CovertDateBirthDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/ExercicesPractices/CovertDateBirthDay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicesPractices/ExercisesWithArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/ExercicesPractices/ExercisesWithArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicesPractices/GFC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/ExercicesPractices/GFC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicesPractices/MultipliTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/ExercicesPractices/MultipliTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicesPractices/PracticeArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/ExercicesPractices/PracticeArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicesPractices/ProgramNumberMenor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/ExercicesPractices/ProgramNumberMenor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matrices/Matriz1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Matrices/Matriz1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MiddleJava/Modulo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/MiddleJava/Modulo6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MiddleJava/Modulo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/MiddleJava/Modulo7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MiddleJava/Modulo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/MiddleJava/Modulo8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MiddleJava/Modulo9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/MiddleJava/Modulo9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +65,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Matriz1">
-    <configuration name="Array4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Array4" />
+  <component name="RunManager" selected="Application.ExampleCar">
+    <configuration name="Arrays3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CursoJavaBeggin.BasicJava.Arrays.Arrays3" />
       <module name="MyPracticeJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="CursoJavaBeggin.BasicJava.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arrays3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Arrays3" />
+    <configuration name="ExampleCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaPOO.ExampleCar" />
       <module name="MyPracticeJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="JavaPOO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,11 +93,11 @@
       </method>
     </configuration>
     <configuration name="ExercisesWithArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExercicesPractices.ExercisesWithArrays" />
+      <option name="MAIN_CLASS_NAME" value="CursoJavaBeggin.BasicJava.ExercicesPractices.ExercisesWithArrays" />
       <module name="MyPracticeJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExercicesPractices.*" />
+          <option name="PATTERN" value="CursoJavaBeggin.BasicJava.ExercicesPractices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,11 +106,11 @@
       </method>
     </configuration>
     <configuration name="Matriz1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Matrices.Matriz1" />
+      <option name="MAIN_CLASS_NAME" value="CursoJavaBeggin.BasicJava.Matrices.Matriz1" />
       <module name="MyPracticeJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Matrices.*" />
+          <option name="PATTERN" value="CursoJavaBeggin.BasicJava.Matrices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,11 +119,11 @@
       </method>
     </configuration>
     <configuration name="PracticeArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExercicesPractices.PracticeArrays" />
+      <option name="MAIN_CLASS_NAME" value="CursoJavaBeggin.BasicJava.ExercicesPractices.PracticeArrays" />
       <module name="MyPracticeJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExercicesPractices.*" />
+          <option name="PATTERN" value="CursoJavaBeggin.BasicJava.ExercicesPractices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExampleCar" />
         <item itemvalue="Application.Matriz1" />
         <item itemvalue="Application.PracticeArrays" />
         <item itemvalue="Application.Arrays3" />
         <item itemvalue="Application.ExercisesWithArrays" />
-        <item itemvalue="Application.Array4" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666917592162</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="changes 28/10/22 14:02 full">
+      <created>1666983763236</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666983763236</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,6 +303,7 @@
     <MESSAGE value="changes 25/10/22 17:50 full" />
     <MESSAGE value="changes 26/10/22 19:45 full" />
     <MESSAGE value="changes 27/10/22 19:39 full" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes 27/10/22 19:39 full" />
+    <MESSAGE value="changes 28/10/22 14:02 full" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes 28/10/22 14:02 full" />
   </component>
 </project>

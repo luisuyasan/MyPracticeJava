@@ -1,4 +1,4 @@
-package BasicJava;
+package CursoJavaBeggin.BasicJava;
 
 public class Modulo5
 {
