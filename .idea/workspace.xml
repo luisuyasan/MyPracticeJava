@@ -4,32 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc40a8d3-6991-4f69-b8b2-de05b55d4635" name="Changes" comment="changes 28/10/22 14:02 full">
-      <change afterPath="$PROJECT_DIR$/src/JavaPOO/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaPOO/ExampleCar.java" afterDir="false" />
+    <list default="true" id="fc40a8d3-6991-4f69-b8b2-de05b55d4635" name="Changes" comment="changes 28/10/22 19:57 full">
+      <change afterPath="$PROJECT_DIR$/src/JavaPOO/CarClass/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaPOO/CarClass/ColorCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaPOO/CarClass/ExampleCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaPOO/CarClass/TypeCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaPOO/ClassCar2/Motor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaPOO/ClassCar2/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaPOO/ClassCar2/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaPOO/ClassCar2/Tire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaPOO/ClassCar2/TypeCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaPOO/ClassCar2/TypeMotor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/Array4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Arrays/Array4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Arrays/Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/Arrays2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Arrays/Arrays2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/Arrays3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Arrays/Arrays3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/WorksArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Arrays/WorksArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasicJava/Modulo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Modulo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasicJava/Modulo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Modulo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasicJava/Modulo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Modulo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasicJava/Modulo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Modulo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasicJava/Modulo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Modulo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExercicesPractices/AreaCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/ExercicesPractices/AreaCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExercicesPractices/CovertDateBirthDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/ExercicesPractices/CovertDateBirthDay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExercicesPractices/ExercisesWithArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/ExercicesPractices/ExercisesWithArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExercicesPractices/GFC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/ExercicesPractices/GFC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExercicesPractices/MultipliTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/ExercicesPractices/MultipliTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExercicesPractices/PracticeArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/ExercicesPractices/PracticeArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExercicesPractices/ProgramNumberMenor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/ExercicesPractices/ProgramNumberMenor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Matrices/Matriz1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Matrices/Matriz1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiddleJava/Modulo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/MiddleJava/Modulo6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiddleJava/Modulo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/MiddleJava/Modulo7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiddleJava/Modulo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/MiddleJava/Modulo8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiddleJava/Modulo9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/MiddleJava/Modulo9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaPOO/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaPOO/ExampleCar.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -80,11 +69,11 @@
       </method>
     </configuration>
     <configuration name="ExampleCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaPOO.ExampleCar" />
+      <option name="MAIN_CLASS_NAME" value="JavaPOO.CarClass.CarClass.ExampleCar" />
       <module name="MyPracticeJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaPOO.*" />
+          <option name="PATTERN" value="JavaPOO.CarClass.CarClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666983763236</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="changes 28/10/22 19:57 full">
+      <created>1667005086573</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667005086573</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,6 +300,7 @@
     <MESSAGE value="changes 26/10/22 19:45 full" />
     <MESSAGE value="changes 27/10/22 19:39 full" />
     <MESSAGE value="changes 28/10/22 14:02 full" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes 28/10/22 14:02 full" />
+    <MESSAGE value="changes 28/10/22 19:57 full" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes 28/10/22 19:57 full" />
   </component>
 </project>
