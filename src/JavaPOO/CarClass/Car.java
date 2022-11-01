@@ -19,7 +19,6 @@ public class Car
 
     private TypeCar type;
 
-
     //constructor
     public Car(){      // without parameter
         this.id = ++LastId;
