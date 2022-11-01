@@ -1,5 +1,6 @@
 package JavaPOO.CarClass;
 
+
 // my first clas with parameters, methods, constructors, getAndSet
 public class Car
 {
@@ -8,8 +9,10 @@ public class Car
     private String maker;
     private String model;
     private ColorCar color;
-    private double displacement;
-    private int capacityTank = 40;
+    private Motor motor;
+    private Tank tank;
+    private Person person;
+    private Tire[] tires;
     private static String IdentifyModel;
     private static int LastId;
     public static final Integer ROAD_TOP_SPEED = 100;  //Variable type constant(final)
@@ -27,11 +30,18 @@ public class Car
         this.model = model;
     }
      //constructor
-    public Car(String maker,String model, ColorCar color, double displacement,TypeCar typeCar){
+    public Car(String maker,String model, ColorCar color, Motor motor,TypeCar typeCar){
         this(maker,model); //constructor in constructor
         this.color = color;
-        this.displacement = displacement;
+        this.motor = motor;
         this.type = typeCar ;
+    }
+
+    public Car(String maker,String model, ColorCar color, Motor motor,TypeCar typeCar,Tank tank, Person person, Tire[] tires) {
+        this(maker,model,color,motor,typeCar);
+        this.tank = tank;
+        this.person = person;
+        this.tires = tires;
     }
 
     //Methods set and get
@@ -59,20 +69,22 @@ public class Car
         this.color = color;
     }
 
-    public double getDisplacement() {
-        return displacement;
+    public Motor getMotor() {
+        return motor;
     }
 
-    public void setDisplacement(double displacement) {
-        this.displacement = displacement;
+    public void setMotor(Motor motor) {
+        this.motor = motor;
     }
 
-    public int getCapacityTank() {
-        return capacityTank;
+    public Tank getTank() {
+        if(tank == null){
+        this.tank = new Tank();
+        }return tank;
     }
 
-    public void setCapacityTank(int capacityTank) {
-        this.capacityTank = capacityTank;
+    public void setTank(Tank tank) {
+        this.tank = tank;
     }
 
     public static String getIdentifyModel() {
@@ -98,20 +110,28 @@ public class Car
         this.type = type;
     }
 
-    //Methods
+    public Person getPerson() {
+        return person;
+    }
 
+    public void setPerson(Person person) {
+        this.person = person;
+    }
+
+    //Methods
     public String detail(){
         return
                 id + "\n" +
                 color.getColor() + "\n" +
                 maker + "\n" +
                 model + "\n" +
-                displacement + "\n" +
+                motor.getDisplacement() +", "+ motor.getType() + "\n" +
                 IdentifyModel + "\n" +
                         ROAD_TOP_SPEED + "\n" +   //type const final not modify!
                 type.getName() + "\n" +
                         type.getDescription() + "\n" +
-                        type.getNumberDoors() + "\n";
+                        type.getNumberDoors() + "\n" +
+                        "Drive = " + person + "\n";
 
     }
 
@@ -130,11 +150,11 @@ public class Car
     }
 
     public float calculateConsumption(int km, float percentCombustible){
-        return km/(capacityTank * percentCombustible);
+        return km/(this.getTank().getCapacity() * percentCombustible);
     }
 
     public float calculateConsumption(int km, int percentCombustible){
-        return km/(capacityTank * (percentCombustible)/100f);
+        return km/(this.getTank().getCapacity() * (percentCombustible)/100f);
     }
 
     @Override    //indica sobre escritura de un metodo.

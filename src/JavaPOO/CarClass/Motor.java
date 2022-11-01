@@ -1,4 +1,4 @@
-package JavaPOO.ClassCar2;
+package JavaPOO.CarClass;
 
 public class Motor {
     private double Displacement;

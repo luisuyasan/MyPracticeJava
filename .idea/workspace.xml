@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc40a8d3-6991-4f69-b8b2-de05b55d4635" name="Changes" comment="changes 28/10/22 19:57 full">
-      <change afterPath="$PROJECT_DIR$/src/JavaPOO/CarClass/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaPOO/CarClass/ColorCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaPOO/CarClass/ExampleCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaPOO/CarClass/TypeCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaPOO/ClassCar2/Motor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaPOO/ClassCar2/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaPOO/ClassCar2/Tank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaPOO/ClassCar2/Tire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaPOO/ClassCar2/TypeCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaPOO/ClassCar2/TypeMotor.java" afterDir="false" />
+    <list default="true" id="fc40a8d3-6991-4f69-b8b2-de05b55d4635" name="Changes" comment="changes 31/10/22 17:55 full">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaPOO/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaPOO/ExampleCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaPOO/CarClass/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaPOO/CarClass/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaPOO/CarClass/ExampleCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaPOO/CarClass/ExampleCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaPOO/ClassCar2/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaPOO/CarClass/Motor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaPOO/ClassCar2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaPOO/CarClass/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaPOO/ClassCar2/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaPOO/CarClass/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaPOO/ClassCar2/Tire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaPOO/CarClass/Tire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaPOO/ClassCar2/TypeCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaPOO/ClassCar2/TypeMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaPOO/CarClass/TypeMotor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +40,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/luis.uyasan/Desktop/myProyect&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "C:/Users/luis.uyasan/Desktop/myProyect",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
-  <component name="RunManager" selected="Application.ExampleCar">
+}]]></component>
+  <component name="RunManager" selected="Application.JavaPOO.CarClass.ExampleCar">
     <configuration name="Arrays3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CursoJavaBeggin.BasicJava.Arrays.Arrays3" />
       <module name="MyPracticeJava" />
@@ -81,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExercisesWithArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CursoJavaBeggin.BasicJava.ExercicesPractices.ExercisesWithArrays" />
+    <configuration name="JavaPOO.CarClass.ExampleCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaPOO.CarClass.ExampleCar" />
       <module name="MyPracticeJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CursoJavaBeggin.BasicJava.ExercicesPractices.*" />
+          <option name="PATTERN" value="JavaPOO.CarClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaPOO.CarClass.ExampleCar" />
         <item itemvalue="Application.ExampleCar" />
         <item itemvalue="Application.Matriz1" />
         <item itemvalue="Application.PracticeArrays" />
         <item itemvalue="Application.Arrays3" />
-        <item itemvalue="Application.ExercisesWithArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667005086573</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="changes 31/10/22 17:55 full">
+      <created>1667256960375</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667256960375</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,6 +305,7 @@
     <MESSAGE value="changes 27/10/22 19:39 full" />
     <MESSAGE value="changes 28/10/22 14:02 full" />
     <MESSAGE value="changes 28/10/22 19:57 full" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes 28/10/22 19:57 full" />
+    <MESSAGE value="changes 31/10/22 17:55 full" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes 31/10/22 17:55 full" />
   </component>
 </project>

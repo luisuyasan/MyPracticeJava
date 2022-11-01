@@ -1,24 +1,28 @@
 package JavaPOO.CarClass;
 
+import static JavaPOO.CarClass.TypeMotor.DIESEL;
+import static JavaPOO.CarClass.TypeMotor.GASOLINE;
+
 public class ExampleCar
 {
     public static void main(String[] args) {
 
+        Person person = new Person("Luis","Uyasan");
         Car carSubaru = new Car();
         carSubaru.setMaker("Subaru");
         carSubaru.setModel("Impreza");
         carSubaru.setColor(ColorCar.BLACK);
-        carSubaru.setDisplacement(2.0);
+        carSubaru.setMotor(new Motor(1.6,GASOLINE));
         carSubaru.setType(TypeCar.HATCHBACK);
-        carSubaru.getType();
+        carSubaru.setPerson(person);
 
 
         Car.setIdentifyModel("5897KC");  // Attribute Static access without Instance of class , affect all objects of class
 
-        Car carMazda = new Car("Mazda","CX-50",ColorCar.RED,2.0,TypeCar.SEDAN);
-        carMazda.setDisplacement(2.0);
+        Car carMazda = new Car("Mazda","CX-50",ColorCar.RED,new Motor(2.0,GASOLINE),TypeCar.SEDAN);
+        carMazda.setMotor(new Motor(2.0,GASOLINE));
 
-        Car carMazda2 = new Car("Mazda","CX-50",ColorCar.YELLOW,2.5,TypeCar.CONVERTIBLE);
+        Car carMazda2 = new Car("Mazda","CX-50",ColorCar.YELLOW,new Motor(2.0,DIESEL),TypeCar.CONVERTIBLE);
         Car carNull = new Car();
 
         System.out.println("Car Subaru \n" + carSubaru.detail());
@@ -27,6 +31,7 @@ public class ExampleCar
         System.out.println("start = " + carSubaru.Star(300));
         System.out.println("break = " + carSubaru.brake());
         System.out.println("breaking subaru = " + carSubaru.StartAndBreak(3000));
+        //carMazda.setTank(new Tank(40));
         System.out.println("km for liter = " + carMazda.calculateConsumption(300,0.6f));
         System.out.println("km for liter = " + carMazda.calculateConsumption(300,60));
 
@@ -55,7 +60,7 @@ public class ExampleCar
     }
 
     public static void SwitchWithEnum(){
-        Car carMazda2 = new Car("Mazda","CX-50",ColorCar.YELLOW,2.5,TypeCar.CONVERTIBLE);
+        Car carMazda2 = new Car("Mazda","CX-50",ColorCar.YELLOW,new Motor(2.5,DIESEL),TypeCar.CONVERTIBLE);
         TypeCar typeCar = carMazda2.getType();
         switch (typeCar){
             case COUPE:

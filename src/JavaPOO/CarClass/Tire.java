@@ -1,4 +1,4 @@
-package JavaPOO.ClassCar2;
+package JavaPOO.CarClass;
 
 public class Tire {
     private String marker;
