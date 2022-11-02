@@ -2,7 +2,7 @@ package JavaPOO.CarClass;
 
 
 // my first clas with parameters, methods, constructors, getAndSet
-public class Car
+public class Car implements Comparable <Car>
 {
     //Attributes
     private int id;
@@ -189,5 +189,10 @@ public class Car
         return "Car" + "\n" +
                 "Maker = " + maker +  "\n" +
                 "Model = " + model + "\n";
+    }
+
+    @Override
+    public int compareTo(Car car) {
+        return maker.compareTo(car.maker);
     }
 }
