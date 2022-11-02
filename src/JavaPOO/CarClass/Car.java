@@ -117,22 +117,38 @@ public class Car
         this.person = person;
     }
 
+    public Tire[] getTires() {
+        return tires;
+    }
+
+    public void setTires(Tire[] tires) {
+        this.tires = tires;
+    }
+
     //Methods
     public String detail(){
-        return
-                id + "\n" +
-                color.getColor() + "\n" +
-                maker + "\n" +
-                model + "\n" +
-                motor.getDisplacement() +", "+ motor.getType() + "\n" +
-                IdentifyModel + "\n" +
-                        ROAD_TOP_SPEED + "\n" +   //type const final not modify!
-                type.getName() + "\n" +
-                        type.getDescription() + "\n" +
-                        type.getNumberDoors() + "\n" +
-                        "Drive = " + person + "\n";
-
+        String detail =
+                "Id = " + id + "\n" +
+                "Color = " + color.getColor() + "\n" +
+                "Maker = " + maker + "\n" +
+                "Model = " + model + "\n" +
+                "Motor = " + motor.getDisplacement() +", "+ motor.getType() + "\n" +
+                "Identify Model  = " + IdentifyModel + "\n" +
+                "Top Speed = " +ROAD_TOP_SPEED + " Km/H "+ "\n" +   //type const final not modify!
+                "Type = " +type.getName() + "\n" +
+                "Description = " +type.getDescription() + "\n" +
+                "Number Doors = " +type.getNumberDoors() + "\n" +
+                "Drive = " + person + "\n" +
+                "Capacity = " + tank.getCapacity() + "\n" +
+                "Set of Tires";
+                    if(getTires() != null){
+                    for(Tire tire: this.getTires()){
+                      detail +="\n"+ (tire.getMarker() + ", " + tire.getAro()+ ", " + tire.getWidth());
+                       }
+                    }
+                    return detail  + "\n";
     }
+
 
     public String Star(int rpm){
         return "the car " + maker + " init a " + rpm + "rpm";

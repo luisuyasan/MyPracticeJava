@@ -8,22 +8,34 @@ public class ExampleCar
     public static void main(String[] args) {
 
         Person person = new Person("Luis","Uyasan");
+        Tank tank = new Tank(30);
+        Tire[] tires = new Tire[5];
+        tires[0] = new Tire("Pirelli",17,7.5);
+        tires[1] = new Tire("Pirelli",17,7.5);
+        tires[2] = new Tire("Pirelli",17,7.5);
+        tires[3] = new Tire("Pirelli",17,7.5);
+        tires[4] = new Tire("Pirelli",17,7.5);
+
         Car carSubaru = new Car();
         carSubaru.setMaker("Subaru");
         carSubaru.setModel("Impreza");
         carSubaru.setColor(ColorCar.BLACK);
         carSubaru.setMotor(new Motor(1.6,GASOLINE));
         carSubaru.setType(TypeCar.HATCHBACK);
+        carSubaru.setTank(tank);
         carSubaru.setPerson(person);
+        carSubaru.setTires(tires);
 
 
         Car.setIdentifyModel("5897KC");  // Attribute Static access without Instance of class , affect all objects of class
 
-        Car carMazda = new Car("Mazda","CX-50",ColorCar.RED,new Motor(2.0,GASOLINE),TypeCar.SEDAN);
-        carMazda.setMotor(new Motor(2.0,GASOLINE));
+        Car carMazda = new Car("Mazda","CX-50",ColorCar.RED,new Motor(2.0,GASOLINE),TypeCar.SEDAN,new Tank(),new Person("Nicolas","Uyasan"),ArrayTiresMazda());
+        //carMazda.setPerson(new Person("Nicolas","Uyasan"));
 
-        Car carMazda2 = new Car("Mazda","CX-50",ColorCar.YELLOW,new Motor(2.0,DIESEL),TypeCar.CONVERTIBLE);
+
+        Car carMazda2 = new Car("Mazda","CX-50",ColorCar.YELLOW,new Motor(2.0,DIESEL),TypeCar.CONVERTIBLE,new Tank(),new Person("Jenny","Tao"),ArrayTiresMazda2());
         Car carNull = new Car();
+
 
         System.out.println("Car Subaru \n" + carSubaru.detail());
         System.out.println("Car Mazda \n" + carMazda.detail());
@@ -58,6 +70,27 @@ public class ExampleCar
         
 
     }
+
+    public static Tire[] ArrayTiresMazda(){
+        Tire[] tires = new Tire[5];
+        tires[0] = new Tire("Firestone",16,7.2);
+        tires[1] = new Tire("Firestone",16,7.2);
+        tires[2] = new Tire("Firestone",16,7.3);
+        tires[3] = new Tire("Firestone",16,7.2);
+        tires[4] = new Tire("Firestone",16,7.2);
+        return tires;
+    }
+
+    public static Tire[] ArrayTiresMazda2(){
+        Tire[] tires = new Tire[4];
+        tires[0] = new Tire("GoodYear",18,7.9);
+        tires[1] = new Tire("GoodYear",18,7.9);
+        tires[2] = new Tire("GoodYear",18,7.9);
+        tires[3] = new Tire("GoodYear",18,7.9);
+        return tires;
+    }
+
+
 
     public static void SwitchWithEnum(){
         Car carMazda2 = new Car("Mazda","CX-50",ColorCar.YELLOW,new Motor(2.5,DIESEL),TypeCar.CONVERTIBLE);
