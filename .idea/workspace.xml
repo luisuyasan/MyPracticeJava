@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc40a8d3-6991-4f69-b8b2-de05b55d4635" name="Changes" comment="changes 02/11/22 13:22 full">
+    <list default="true" id="fc40a8d3-6991-4f69-b8b2-de05b55d4635" name="Changes" comment="changes 02/11/22 16:44 full">
+      <change afterPath="$PROJECT_DIR$/src/CursoJavaBeggin/BasicJava/Matrices/cambioDeNumeros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaPOO/CarClass/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaPOO/CarClass/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaPOO/CarClass/ExampleCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaPOO/CarClass/ExampleCar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Microsoft/jdk-11.0.11.9-hotspot/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -40,25 +43,12 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/luis.uyasan/Desktop/myProyect&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/luis.uyasan/IdeaProjects/MyPracticeJava&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.JavaPOO.CarClass.ExampleCar">
-    <configuration name="Arrays3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CursoJavaBeggin.BasicJava.Arrays.Arrays3" />
-      <module name="MyPracticeJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CursoJavaBeggin.BasicJava.Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.cambioDeNumeros">
     <configuration name="ExampleCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaPOO.CarClass.CarClass.ExampleCar" />
       <module name="MyPracticeJava" />
@@ -111,13 +101,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="cambioDeNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CursoJavaBeggin.BasicJava.Matrices.cambioDeNumeros" />
+      <module name="MyPracticeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CursoJavaBeggin.BasicJava.Matrices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.cambioDeNumeros" />
+        <item itemvalue="Application.Matriz1" />
         <item itemvalue="Application.JavaPOO.CarClass.ExampleCar" />
         <item itemvalue="Application.ExampleCar" />
-        <item itemvalue="Application.Matriz1" />
         <item itemvalue="Application.PracticeArrays" />
-        <item itemvalue="Application.Arrays3" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667413391104</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="changes 02/11/22 16:44 full">
+      <created>1667425485609</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1667425485609</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -323,6 +333,7 @@
     <MESSAGE value="changes 31/10/22 17:55 full" />
     <MESSAGE value="changes 01/10/22 17:55 full" />
     <MESSAGE value="changes 02/11/22 13:22 full" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes 02/11/22 13:22 full" />
+    <MESSAGE value="changes 02/11/22 16:44 full" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes 02/11/22 16:44 full" />
   </component>
 </project>

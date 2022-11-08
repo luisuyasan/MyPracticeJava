@@ -1,6 +1,5 @@
 package JavaPOO.CarClass;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 import static JavaPOO.CarClass.TypeMotor.DIESEL;
@@ -64,9 +63,6 @@ public class ExampleCar
         for (Car value : car) {
             System.out.println("car = " + value);
         }
-
-
-        
 
     }
     public static Car carSubaru(){
